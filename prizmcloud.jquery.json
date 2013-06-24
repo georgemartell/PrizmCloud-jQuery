@@ -1,0 +1,30 @@
+{
+    "name": "prizmcloud",
+    "title": "Prizm Cloud Jquery Portfolio Plugin",
+    "description": "jQuery plugin allows you to display the Prizm Cloud Document Viewer with clickable thumbnails which update the base viewer with a new document dynamically. Multiple viewers can be on the same page.",
+    "keywords": [
+        "document viewer",
+        "prizm cloud",
+		"pdf",
+		"doc"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Accusoft",
+        "url": "http://www.accusoft.com/"
+    },
+    "licenses": [
+        {
+            "type": "GPLv2",
+			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
+        }
+    ],
+    "bugs": "https://github.com/Accusoft/PrizmCloud-jQuery/issues",
+    "homepage": "http://prizmcloud.accusoft.com/",
+    "docs": "https://github.com/Accusoft/PrizmCloud-jQuery",
+	"demo": "http://prizmcloud.accusoft.com/demo.html",
+    "download": "https://github.com/Accusoft/PrizmCloud-jQuery",
+    "dependencies": {
+        "jquery": ">=1.7.2"
+    }
+}
