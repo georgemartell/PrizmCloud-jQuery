@@ -39,17 +39,17 @@
                     {
                         $link.parent().find('.doc-link').removeClass('active');
                         $link.addClass('active');
-                        if($link.data('doc-link') != undefined) 
+                        if($link.data('doc-link') != undefined)
                         {
                             docurl += $link.data('doc-link');
                         }
-                        else if($link.attr('href') != undefined) 
+                        else if($link.attr('href') != undefined)
                         {
                             // test for href as backup
                             docurl += $link.attr('href');
                         }
                         var src_url = base_url + opts.key + docurl + "&viewerheight=" + opts.vheight + "&viewerwidth=" + opts.vwidth + "&viewertype=" + opts.type + "&printButton=" + opts.print_button + "&toolbarColor=" + opts.toolbar_color + "&cache=" + opts.cache;
-                        
+
                         var viewer_iframe = $('<iframe></iframe>', {
                             'id': "prizmcloud-iframe-" + rand_num,
                             'width': (opts.vwidth + 20),
@@ -58,7 +58,7 @@
                             'frameborder': 0,
                             'seamless': 'seamless'
                         });
-                        
+
                         obj.children(opts.viewer_container).html(viewer_iframe);
                     }
                     return false;

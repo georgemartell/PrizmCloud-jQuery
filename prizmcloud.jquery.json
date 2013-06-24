@@ -25,7 +25,7 @@
     "homepage": "http://prizmcloud.accusoft.com/",
     "docs": "https://github.com/Accusoft/PrizmCloud-jQuery/wiki",
 	"demo": "http://prizmcloud.accusoft.com/demo.html",
-    "download": "https://github.com/Accusoft/PrizmCloud-jQuery",
+    "download": "https://github.com/Accusoft/PrizmCloud-jQuery/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.7.2"
     }
