@@ -4,7 +4,11 @@ jQuery plugin allows you to display the Prizm Cloud Document Viewer with clickab
 
 ![PrizmCloud Visual Example](PrizmCloud_Demo_for_Js.png "Prizm Cloud Visual Example")
 
+Here is a [demo](http://prizmcloud.accusoft.com/demo.html) of how Prizm Cloud works. There is a [jsFiddle](http://jsfiddle.net/accusoft/m2CWP/) so you can see the plugin in action!
+
 ###Prerequisites
+
+You will need to [Sign Up](http://prizmcloud.accusoft.com/register.html) for a Prizm Cloud account. Don't worry there is a free account.
 
 Your **html** should have the following
 
@@ -30,6 +34,8 @@ Your **html** should have the following
 * **print_button**: options 'Yes' or 'No'
 * **toolbar_color**: hex color, no '#' for example "CCCCCC"
 * **cache**: 'Yes' or 'No'
+* **documents_container**: container that holds the thumbnails, can be a class or id
+* **viewer_container**: the main document viewer container, can be a class or id
 
 
 ##jQuery
