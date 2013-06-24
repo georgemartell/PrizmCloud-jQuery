@@ -3,8 +3,8 @@
     "title": "Prizm Cloud Jquery Portfolio Plugin",
     "description": "jQuery plugin allows you to display the Prizm Cloud Document Viewer with clickable thumbnails which update the base viewer with a new document dynamically. Multiple viewers can be on the same page.",
     "keywords": [
-        "document viewer",
-        "prizm cloud",
+        "document-viewer",
+        "prizm-cloud",
 		"pdf",
 		"doc"
     ],
