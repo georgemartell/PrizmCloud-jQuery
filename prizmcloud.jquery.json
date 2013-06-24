@@ -13,6 +13,7 @@
     "version": "1.0.3",
     "author": {
         "name": "Accusoft",
+		"email": "plugins@prizmcloud.com",
         "url": "http://www.accusoft.com/"
     },
     "licenses": [
