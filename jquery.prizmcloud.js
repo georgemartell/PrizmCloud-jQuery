@@ -22,6 +22,7 @@
         // extend default options.
         var opts = $.extend({}, $.fn.prizmcloud.defaults, options);
         var base_url = "http://connect.ajaxdocumentviewer.com/?key=";
+		var integration = "jQuery";
 
         bindClicks(this);
 
@@ -48,7 +49,7 @@
                             // test for href as backup
                             docurl += $link.attr('href');
                         }
-                        var src_url = base_url + opts.key + docurl + "&viewerheight=" + opts.vheight + "&viewerwidth=" + opts.vwidth + "&viewertype=" + opts.type + "&printButton=" + opts.print_button + "&toolbarColor=" + opts.toolbar_color + "&cache=" + opts.cache;
+                        var src_url = base_url + opts.key + docurl + "&viewerheight=" + opts.vheight + "&viewerwidth=" + opts.vwidth + "&viewertype=" + opts.type + "&printButton=" + opts.print_button + "&toolbarColor=" + opts.toolbar_color + "&cache=" + opts.cache + "&integration=" + $integration;
 
                         var viewer_iframe = $('<iframe></iframe>', {
                             'id': "prizmcloud-iframe-" + rand_num,
